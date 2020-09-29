@@ -24,5 +24,20 @@ public class PageBtn1 extends AppCompatActivity {
             pdf1adm_pes = (PDFView) findViewById(R.id.pdf1adm_pes);
             pdf1adm_pes.fromAsset("POP 1118-01 Programar ou alterar férias.pdf").load();
         }
+
+        if (PageAdmPessoal.btnId == R.id.btnPDF3adm_pes) {
+            pdf1adm_pes = (PDFView) findViewById(R.id.pdf1adm_pes);
+            pdf1adm_pes.fromAsset("POP PA1102-01 Convocar, contratar e admitir pessoal.pdf").load();
+        }
+
+        if (PageAdmPessoal.btnId == R.id.btnPDF4adm_pes) {
+            pdf1adm_pes = (PDFView) findViewById(R.id.pdf1adm_pes);
+            pdf1adm_pes.fromAsset("POP PA1106-01 Desligar pessoal.pdf").load();
+        }
+
+        if (PageAdmPessoal.btnId == R.id.btnPDF5adm_pes) {
+            pdf1adm_pes = (PDFView) findViewById(R.id.pdf1adm_pes);
+            pdf1adm_pes.fromAsset("POP PA1112-01 Designar substituto de cargo ou função.pdf").load();
+        }
     }
 }

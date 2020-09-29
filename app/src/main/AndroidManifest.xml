@@ -10,10 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".PageDevCapPessoas"
+            android:label="@string/title_activity_page_dev_cap_pessoas"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".PageBtn1"
-            android:label="@string/button1">
-
-        </activity>
+            android:label="@string/button1" />
         <activity
             android:name=".PageAdmPessoal"
             android:label="@string/button1" />

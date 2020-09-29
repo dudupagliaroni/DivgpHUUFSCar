@@ -23,53 +23,56 @@ public class PageAdmPessoal extends AppCompatActivity {
         Button btnPDF5;
 
 
+        btnPDF1 = findViewById(R.id.btnPDF1adm_pes);
+        btnPDF1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                btnId = v.getId();
+                Intent i = new Intent(getApplicationContext(), PageBtn1.class);
+                startActivity(i);
+            }
 
-            btnPDF1 = findViewById(R.id.btnPDF1adm_pes);
-            btnPDF1.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    btnId = v.getId();
-                    Intent i = new Intent(getApplicationContext(), PageBtn1.class);
-                    startActivity(i);
-                }
+        });
 
-            });
+        btnPDF2 = findViewById(R.id.btnPDF2adm_pes);
+        btnPDF2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                btnId = v.getId();
+                Intent i = new Intent(getApplicationContext(), PageBtn1.class);
+                startActivity(i);
+            }
+        });
 
-            btnPDF2 = findViewById(R.id.btnPDF2adm_pes);
-            btnPDF2.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    btnId = v.getId();
-                    Intent i = new Intent(getApplicationContext(), PageBtn1.class);
-                    startActivity(i);
-                }
-            });
+        btnPDF3 = findViewById(R.id.btnPDF3adm_pes);
+        btnPDF3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                btnId = v.getId();
+                Intent i = new Intent(getApplicationContext(), PageBtn1.class);
+                startActivity(i);
+            }
+        });
 
-/*            btnPDF3 = findViewById(R.id.btnPDF3adm_pes);
-            btnPDF3.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Intent i = new Intent(getApplicationContext(), PagePdf3AdmPes.class);
-                    startActivity(i);
-                }
-            });
+        btnPDF4 = findViewById(R.id.btnPDF4adm_pes);
+        btnPDF4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                btnId = v.getId();
+                Intent i = new Intent(getApplicationContext(), PageBtn1.class);
+                startActivity(i);
+            }
+        });
 
-            btnPDF4 = findViewById(R.id.btnPDF4adm_pes);
-            btnPDF4.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Intent i = new Intent(getApplicationContext(), PagePdf4AdmPes.class);
-                    startActivity(i);
-                }
-            });
+        btnPDF5 = findViewById(R.id.btnPDF5adm_pes);
+        btnPDF5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                btnId = v.getId();
+                Intent i = new Intent(getApplicationContext(), PageBtn1.class);
+                startActivity(i);
+            }
 
-            btnPDF5 = findViewById(R.id.btnPDF5adm_pes);
-            btnPDF5.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Intent i = new Intent(getApplicationContext(), PagePdf5AdmPes.class);
-                    startActivity(i);
-                }*/
-
+        });
     }
 }
