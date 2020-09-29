@@ -9,6 +9,8 @@ import android.widget.Button;
 
 public class PageAdmPessoal extends AppCompatActivity {
 
+    public static int btnId;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,30 +22,30 @@ public class PageAdmPessoal extends AppCompatActivity {
         Button btnPDF4;
         Button btnPDF5;
 
-        @Override
-        protected void onCreate(Bundle savedInstanceState) {
-            super.onCreate(savedInstanceState);
-            setContentView(R.layout.activity_page_adm_pessoal);
+
 
             btnPDF1 = findViewById(R.id.btnPDF1adm_pes);
             btnPDF1.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent i = new Intent(getApplicationContext(), PagePdf1AdmPes.class);
+                    btnId = v.getId();
+                    Intent i = new Intent(getApplicationContext(), PageBtn1.class);
                     startActivity(i);
                 }
+
             });
 
             btnPDF2 = findViewById(R.id.btnPDF2adm_pes);
             btnPDF2.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent i = new Intent(getApplicationContext(), PagePdf2AdmPes.class);
+                    btnId = v.getId();
+                    Intent i = new Intent(getApplicationContext(), PageBtn1.class);
                     startActivity(i);
                 }
             });
 
-            btnPDF3 = findViewById(R.id.btnPDF3adm_pes);
+/*            btnPDF3 = findViewById(R.id.btnPDF3adm_pes);
             btnPDF3.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -67,9 +69,7 @@ public class PageAdmPessoal extends AppCompatActivity {
                 public void onClick(View v) {
                     Intent i = new Intent(getApplicationContext(), PagePdf5AdmPes.class);
                     startActivity(i);
-                }
-            });
+                }*/
 
-        }
     }
 }

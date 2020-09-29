@@ -9,7 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PageAdmPessoal"></activity>
+        <activity
+            android:name=".PageBtn1"
+            android:label="@string/button1">
+
+        </activity>
+        <activity
+            android:name=".PageAdmPessoal"
+            android:label="@string/button1" />
         <activity
             android:name=".SplashScreen"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
@@ -22,24 +29,6 @@
         <activity
             android:name=".MainActivity"
             android:label="Home" />
-        <activity
-            android:name="com.app.app.PagePdf5AdmPes"
-            android:label="@string/buttonPDF5" />
-        <activity
-            android:name="com.app.app.PagePdf4AdmPes"
-            android:label="@string/buttonPDF4" />
-        <activity
-            android:name="com.app.app.PagePdf3AdmPes"
-            android:label="@string/buttonPDF3" />
-        <activity
-            android:name="com.app.app.PagePdf2AdmPes"
-            android:label="@string/buttonPDF2" />
-        <activity
-            android:name="com.app.app.PagePdf1AdmPes"
-            android:label="@string/buttonPDF1" />
-        <activity
-            android:name="com.app.app.AdmPesPage"
-            android:label="@string/labelMainActive" />
     </application>
 
 </manifest>

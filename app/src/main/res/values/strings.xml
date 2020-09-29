@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Divgp HU-UFSCar</string>
+
+    <string name="button1">Administração de Pessoal</string>
+    <string name="button2">Saúde e Segurança Ocupacional</string>
+    <string name="button3">Desenvolvimento e Capacitação de Pessoal</string>
+
+
+    <string name="buttonPDF1">Gerir ponto eletrônico</string>
+    <string name="buttonPDF2">Programar ou alterar férias</string>
+    <string name="buttonPDF3">Convocar, contratar e admitir pessoal</string>
+    <string name="buttonPDF4">Desligar pessoal</string>
+    <string name="buttonPDF5">Designar substituto de cargo ou função</string>
+
+
+    <string name="labelMainActive">Procedimentos Operacionais Padrão</string>
 </resources>
