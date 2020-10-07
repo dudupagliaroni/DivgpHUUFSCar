@@ -28,7 +28,7 @@ public class PageAdmPessoal extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 btnId = v.getId();
-                Intent i = new Intent(getApplicationContext(), PageBtn1.class);
+                Intent i = new Intent(getApplicationContext(), PagePDFAdmPessoal.class);
                 startActivity(i);
             }
 
@@ -39,7 +39,7 @@ public class PageAdmPessoal extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 btnId = v.getId();
-                Intent i = new Intent(getApplicationContext(), PageBtn1.class);
+                Intent i = new Intent(getApplicationContext(), PagePDFAdmPessoal.class);
                 startActivity(i);
             }
         });
@@ -49,7 +49,7 @@ public class PageAdmPessoal extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 btnId = v.getId();
-                Intent i = new Intent(getApplicationContext(), PageBtn1.class);
+                Intent i = new Intent(getApplicationContext(), PagePDFAdmPessoal.class);
                 startActivity(i);
             }
         });
@@ -59,7 +59,7 @@ public class PageAdmPessoal extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 btnId = v.getId();
-                Intent i = new Intent(getApplicationContext(), PageBtn1.class);
+                Intent i = new Intent(getApplicationContext(), PagePDFAdmPessoal.class);
                 startActivity(i);
             }
         });
@@ -69,7 +69,7 @@ public class PageAdmPessoal extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 btnId = v.getId();
-                Intent i = new Intent(getApplicationContext(), PageBtn1.class);
+                Intent i = new Intent(getApplicationContext(), PagePDFAdmPessoal.class);
                 startActivity(i);
             }
 
